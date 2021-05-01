@@ -3,7 +3,7 @@
 とかをログイン画面に使った方がはるかにいいと思うけど*/
 
 #include<iostream>
-#include<strings>
+#include<string>
 using namespace std;
 int main(){
   cout<<"ログイン"\n;
@@ -22,8 +22,9 @@ int main(){
     cout<<"Sorry,you cannot use the user name...\n";
     }
 }
+
       
-//間違ってるところ多いと思うので、フォークとかしない方が賢明です。「ここ間違えてるよ」とか教えてくれたら嬉しいです！
+/*間違ってるところ多いと思うので、フォークとかしない方が賢明です。「ここ間違えてるよ」とか教えてくれたら嬉しいです！*/
   
   
   
