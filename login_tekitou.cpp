@@ -6,21 +6,32 @@
 #include<string>
 using namespace std;
 int main(){
-  cout<<"ログイン"\n;
+  cout<<"ログイン\n";
   //ユーザー名を入力（3文字以上12文字以内）
-  cout<<"ユーザー名"\n;
+  cout<<"ユーザー名\n";
   string user;
   cin>>user\n;
+  cout<<user\n;
   int user_str=user.size();
   bool usr=true;
   usr=(user_str>=3)&&(user_str<=12);
   
-  if(usr==1){
-    cout<<"OK!\n";
-    }
-  else{
-    cout<<"Sorry,you cannot use the user name...\n";
-    }
+  for(int i=0;usr!=1;i++){
+    if(usr==1){
+      cout<<"OK!\n";
+      }
+    else{
+      cout<<"Sorry,you cannot use the user name...\n";
+      }
+  }
+  cout<<"〇\n";
+  //メールアドレスを入力（サーバーうんたらは今のところ考えてないので、形だけで）
+  cout<<"メールアドレス\n";
+  string mail;
+  cin>>mail;
+  cout<<mail\n;
+  cout<<"〇\n";
+  
 }
 
       
