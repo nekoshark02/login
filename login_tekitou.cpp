@@ -18,13 +18,13 @@ int main(){
   
   for(int i=0;usr!=1;i++){
     if(usr==1){
-      cout<<"OK!\n";
+      cout<<"OK!"<<endl;
       }
     else{
-      cout<<"Sorry,you cannot use the user name...\n";
+      cout<<"Sorry,you cannot use the user name..."<<endl;
       }
   }
-  cout<<"〇\n";
+  cout<<"〇"<<endl;
   //メールアドレスを入力（サーバーうんたらは今のところ考えてないので、形だけで）
   cout<<"メールアドレス\n";
   string mail;
