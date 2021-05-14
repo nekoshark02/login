@@ -6,12 +6,12 @@
 #include<string>
 using namespace std;
 int main(){
-  cout<<"ログイン\n";
+  cout<<"ログイン"<<endl;
   //ユーザー名を入力（3文字以上12文字以内）
-  cout<<"ユーザー名\n";
+  cout<<"ユーザー名"<<endl;
   string user;
-  cin>>user\n;
-  cout<<user\n;
+  cin>>user;
+  cout<<user<<endl;
   int user_str=user.size();
   bool usr=true;
   usr=(user_str>=3)&&(user_str<=12);
@@ -29,8 +29,8 @@ int main(){
   cout<<"メールアドレス\n";
   string mail;
   cin>>mail;
-  cout<<mail\n;
-  cout<<"〇\n";
+  cout<<mail<<endl;
+  cout<<"〇"<<endl;
   
 }
 
