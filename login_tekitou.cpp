@@ -6,9 +6,9 @@
 #include<string>
 using namespace std;
 int main(){
-  cout<<"ログイン"<<endl;
+  cout<<"login"<<endl;
   //ユーザー名を入力（3文字以上12文字以内）
-  cout<<"ユーザー名"<<endl;
+  cout<<"Username"<<endl;
   string user;
   cin>>user;
   cout<<user<<endl;
@@ -25,17 +25,18 @@ int main(){
       }
   }
   cout<<"〇"<<endl;
-  //メールアドレスを入力（サーバーうんたらは今のところ考えてないので、形だけで）
-  cout<<"メールアドレス\n";
-  string mail;
-  cin>>mail;
-  cout<<mail<<endl;
+
+  cout<<"Password";
+  string pass;
+  cin>>pass;
+  cout<<pass<<endl;
   cout<<"〇"<<endl;
   
 }
 
       
-/*間違ってるところ多いと思うので、フォークとかしない方が賢明です。「ここ間違えてるよ」とか教えてくれたら嬉しいです！*/
+/*間違ってるところ多いと思うので、フォークとかしない方が賢明です。「ここ間違えてるよ」とか教えてくれたら嬉しいです！
+追記　jsでやり直しするかもです*/
   
   
   
